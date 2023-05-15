@@ -1,4 +1,3 @@
-
 require("mario.remap")
 require("mario.set")
-vim.cmd("set clipboard+=unnamedplus")
+vim.opt.clipboard = "unnamedplus"
