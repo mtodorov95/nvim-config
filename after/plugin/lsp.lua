@@ -6,7 +6,8 @@ lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
 })
-
+-- Fix Dart ?
+lsp.setup_servers({'dartls', force = true})
 -- Fix Undefined global 'vim'
 lsp.nvim_workspace();
 
