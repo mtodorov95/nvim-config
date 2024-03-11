@@ -53,6 +53,3 @@ cmp.setup({
     ['<C-Space>'] = cmp.mapping.complete(),
   }),
 })
-
--- Fix Dart ?
--- lsp.setup_servers({'dartls', force = true})
